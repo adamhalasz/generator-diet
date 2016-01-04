@@ -1,6 +1,6 @@
 {
   "name": "generator-diet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate a basic diet project with an MVC structure",
   "homepage": "http://dietjs.com/",
   "author": {
@@ -16,9 +16,7 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.22.2",
-    "chalk": "^1.0.0",
-    "yosay": "^1.0.2"
+    "yeoman-generator": "^0.22.2"
   },
   "devDependencies": {
     "yeoman-assert": "^2.0.0",
