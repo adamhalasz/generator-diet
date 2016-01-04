@@ -1,6 +1,6 @@
 {
   "name": "generator-diet",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate a basic diet project with an MVC structure",
   "homepage": "http://dietjs.com/",
   "author": {

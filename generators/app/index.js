@@ -1,11 +1,10 @@
 var yeoman = require('yeoman-generator');
 
-var name;
-
 module.exports = yeoman.generators.Base.extend({
    
   prompting: function () {
     var done = this.async();
+    /*
     this.prompt({
         type    : 'input',
         name    : 'name',
@@ -15,13 +14,13 @@ module.exports = yeoman.generators.Base.extend({
         name = answers.name;
         done();
         
-    }.bind(this));
+    }.bind(this));*/
+    
+    done();
     
   },
 
   writing: function () {
-      console.log('this.sourceRoot', this.sourceRoot())
-      console.log('this.destinationPath', this.destinationPath())
     this.fs.copy(
       this.sourceRoot(),
       this.destinationPath()
